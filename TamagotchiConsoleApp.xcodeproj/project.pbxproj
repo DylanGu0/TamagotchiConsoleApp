@@ -12,6 +12,7 @@
 		A20F32C82937631B00B17786 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20F32B52937624000B17786 /* main.swift */; };
 		A20F32CA293764A100B17786 /* Tamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20F32C9293764A100B17786 /* Tamagotchi.swift */; };
 		A20F32CB293764A100B17786 /* Tamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20F32C9293764A100B17786 /* Tamagotchi.swift */; };
+		A2691DAB293A2D7E00FC33C3 /* OptionlessInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2691DAA293A2D7E00FC33C3 /* OptionlessInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 		A20F32C0293762D300B17786 /* TamagotchiConsoleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamagotchiConsoleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20F32C2293762D300B17786 /* TamagotchiConsoleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiConsoleAppTests.swift; sourceTree = "<group>"; };
 		A20F32C9293764A100B17786 /* Tamagotchi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tamagotchi.swift; sourceTree = "<group>"; };
+		A2691DAA293A2D7E00FC33C3 /* OptionlessInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionlessInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				A20F32B52937624000B17786 /* main.swift */,
 				A20F32C9293764A100B17786 /* Tamagotchi.swift */,
+				A2691DAA293A2D7E00FC33C3 /* OptionlessInput.swift */,
 			);
 			path = TamagotchiConsoleApp;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A20F32CA293764A100B17786 /* Tamagotchi.swift in Sources */,
+				A2691DAB293A2D7E00FC33C3 /* OptionlessInput.swift in Sources */,
 				A20F32B62937624000B17786 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

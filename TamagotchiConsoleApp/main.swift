@@ -7,5 +7,10 @@
 
 import Foundation
 
-print("Hello, World!")
+let input = OptionlessInput()
+let tamagotchi = Tamagotchi(name: input.getString(prompt: "Please input the name for your tamagotchi: "))
 
+print("""
+      Your tamagotchi, \(tamagotchi.name), has been born!
+      It's age is \(tamagotchi.getAge())
+      """)
